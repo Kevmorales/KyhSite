@@ -1,6 +1,13 @@
 body {
    font-family: 'Kufam', cursive;
-    
+   position: fixed;
+   top: 0;
+   left: 0;
+   z-index: -1;
+   width: 100vw;
+   height: 100vh;
+   background-image: url("sun.gif");
+   background-size: 100vw 100vh;
     }
 
 
@@ -9,20 +16,6 @@ body {
 /* --------------------
  * Page Wrap
  * -------------------*/
-
-
-#bgImage
-{   
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: -1;
-    width: 100vw;
-    height: 100vh;
-    background-image: url("sun.gif");
-    background-size: 100vw 100vh;
-    
-}
 
 #wrap {
     
