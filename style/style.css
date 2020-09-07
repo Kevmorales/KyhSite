@@ -28,6 +28,12 @@ body {
     
 }
 
+/* Iphone? */
+@media screen and (max-width: 483px) {
+  #wrap { width:100%; }
+  
+}
+
 /* --------------------
  * Content Wrap
  * -------------------*/
