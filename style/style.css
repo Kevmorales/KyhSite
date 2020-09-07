@@ -1,7 +1,9 @@
 body {
-   
-    background  : #ffffff;
+   font-family: 'Kufam', cursive;
+    
     }
+
+
 
 
 /* --------------------
@@ -9,7 +11,22 @@ body {
  * -------------------*/
 
 
+#bgImage
+{   
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("sun.gif");
+    background-size: 100vw 100vh;
+    
+}
+
 #wrap {
+    
+    z-index: 1;
     width: 1000px;
     margin: 0 auto;
     margin-top: 10px;
@@ -26,12 +43,6 @@ body {
 @media screen and (max-width: 768px) {
     #wrap { width:100%; }
     
-}
-
-/* Iphone? */
-@media screen and (max-width: 483px) {
-  #wrap { width:100%; }
-  
 }
 
 /* --------------------
@@ -100,4 +111,11 @@ ul.navstyle {
 @media screen and (max-width: 768px) {
     nav { width:100%; }
     
+}
+
+h1, h2, p
+
+{   
+    font-family: 'Kufam', cursive;
+    text-align: center;
 }

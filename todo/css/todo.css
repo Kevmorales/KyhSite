@@ -37,8 +37,10 @@
     margin-top: 10px;
     color: #111;
     font-size: 25px;
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Kufam', cursive;
     padding-bottom: 10px;
+    text-align: center;
+    text-transform: capitalize;
 }
 
 /* ------------ todo ------------ */
@@ -46,7 +48,7 @@
     width:380px;
     height: 350px;
     max-height:350px;
-    background-color: #FFF;
+    background-color: transparent;
     overflow: auto;
     margin: 0 auto;
     margin-top: 10px;
@@ -88,7 +90,7 @@
     font-size: 20px;
     left:50px;
     top:5px;
-    background-color: #FFF;
+    background-color: transparent;
     max-width:285px;
 }
 .lineThrough{
@@ -110,7 +112,7 @@
     position: relative;
     width: 420px;
     height:40px;
-    background-color: #FFF;
+    background-color: transparent;
     padding: 10px;
     border-top: 1px solid rgba(0,0,0,0.1);
     margin: 0 auto;
@@ -154,10 +156,25 @@
     font-size: 20px;
 }
 
+.h1content
+{
+    text-transform: capitalize;
+    text-align: center;
+}
 
 
-
-
+#imageBg
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("sun.gif");
+    background-size: 100vw 100vh;
+    
+}
 
 
 
