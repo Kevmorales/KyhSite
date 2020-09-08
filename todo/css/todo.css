@@ -1,26 +1,9 @@
 
-/* ------------ container ------------ */
-/* .container{
-    padding:10px;
-    width:380px;
-    margin:0 auto;
-}
-*/
 
-/* ------------ header ------------ */
-/*.todoheader{
-    width: 380px;
-    height:200px;
-    background-image: url('../img/images.jpg');
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    border-radius: 15px 15px 0 0;
-    position: relative;
-} */
 .clear{
     width : 30px;
     height: 30px;
-    padding-left:373px;
+    padding-left:580px;
     
 }
 .clear i{
@@ -45,9 +28,9 @@
 
 /* ------------ todo ------------ */
 .todo{
-    width:380px;
-    height: 350px;
-    max-height:350px;
+    width:800px;
+    height: 500px;
+    max-height:650px;
     background-color: transparent;
     overflow: auto;
     margin: 0 auto;
@@ -61,7 +44,7 @@
     margin:0;
 }
 .item{
-    width:380px;
+    width:800px;
     height: 45px;
     min-height: 45px;
     position: relative;
@@ -110,7 +93,7 @@
 /* ------------ add item ------------ */
 .add-to-do{
     position: relative;
-    width: 420px;
+    width: 620px;
     height:40px;
     background-color: transparent;
     padding: 10px;
@@ -129,7 +112,7 @@
     position: absolute;
     left: 50px;
     height: 35px;
-    width: 310px;
+    width: 520px;
     background-color: transparent;
     border: none;
     font-size: 20px;
