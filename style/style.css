@@ -1,5 +1,4 @@
 body {
-   font-family: 'Kufam', cursive;
    position: fixed;
    top: 0;
    left: 0;
@@ -11,6 +10,59 @@ body {
     }
 
 
+/* --------------------
+ * Navigation
+ * -------------------*/
+
+
+ nav {
+
+  width: 1000px;
+  position: relative;
+  margin: 0 auto;
+      box-shadow : -10px -10px 30px rgba(0, 0, 0, 0.23);
+  
+  }
+  
+  ul.navstyle {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333;
+    }
+    
+    li.navstyle {
+      float: left;
+    }
+    
+    li.navstyle a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    
+    li.navstyle a:hover {
+      background-color: #111;
+    }
+  
+    .active {
+      background-color: #111;
+    }
+  
+    /* Tablet Landscape */
+  @media screen and (max-width: 1060px) {
+      nav { width:67%; }
+        
+  }
+  /* Tabled Portrait */
+  @media screen and (max-width: 768px) {
+      nav { width:100%; }
+      
+  }
+
 
 
 /* --------------------
@@ -19,10 +71,10 @@ body {
 
 #wrap {
     
-    z-index: 1;
+    position: relative;
+    margin: -21px auto;
+    background: rgba(255,255,255, 0.43);
     width: 1000px;
-    margin: 0 auto;
-    margin-top: 10px;
     box-shadow : -10px -10px 30px rgba(0, 0, 0, 0.23);
     }
 
@@ -53,62 +105,18 @@ body {
 
 }
 
-/* --------------------
- * Navigation
- * -------------------*/
 
 
-nav {
-
-width: 100%;
-margin: 0 auto;
-    margin-top: 10px;
-    box-shadow : -10px -10px 30px rgba(0, 0, 0, 0.23);
-
-}
-
-ul.navstyle {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-  }
-  
-  li.navstyle {
-    float: left;
-  }
-  
-  li.navstyle a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  li.navstyle a:hover {
-    background-color: #111;
-  }
-
-  .active {
-    background-color: #111;
-  }
-
-  /* Tablet Landscape */
-@media screen and (max-width: 1060px) {
-    nav { width:100%; }
-      
-}
-/* Tabled Portrait */
-@media screen and (max-width: 768px) {
-    nav { width:100%; }
-    
-}
-
+/* 
 h1, h2, p
 
 {   
     font-family: 'Kufam', cursive;
     text-align: center;
-}
+} */
+
+h2, p {  
+
+  text-align: center
+
+} 
